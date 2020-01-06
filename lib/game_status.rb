@@ -25,7 +25,7 @@ end
 
 def winner(board)
   if winning_combo = won?(board)
-    board[winning_combo[1]]
+    board[winning_combo.first]
   end
 end
 # Define your WIN_COMBINATIONS constant
