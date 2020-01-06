@@ -17,7 +17,7 @@ def won?(board)
   end
 end
 
-def full(board)
+def full?(board)
   board.any? do |index|
     !position_taken?(board, index)
   end
