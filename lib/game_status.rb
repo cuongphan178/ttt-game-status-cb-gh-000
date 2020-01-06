@@ -21,7 +21,7 @@ end
 
 def full?(board)
   board.any? do |token|
-    
+
   end
 end
 # Define your WIN_COMBINATIONS constant
